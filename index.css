@@ -1,0 +1,53 @@
+.divi {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .divi1 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .h1{
+      text-align: center;
+  }
+  .but1 {
+      background-color: dodgerblue;
+      opacity:0.5;
+  }
+  .but1:hover {
+      opacity:1;
+  }
+  @media screen and (max-width: 600px) {
+    .divi, .divi1, input[type=date],input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .but3 {
+    background-color: dodgerblue;
+    opacity:0.5;
+}
+.but3:hover {
+    opacity:1;
+}
+html{
+    text-align: center;
+}
+  
+
+  
